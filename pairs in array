@@ -1,0 +1,15 @@
+import java.util.*;
+public class javatest{
+public static void main(String args[]){
+    int arr[] = {2,4,6,8,10,12,14};
+    for(int i =0;i<arr.length;i++){
+        int numbers = arr[i];
+        for(int j=i;j<arr.length;j++){ 
+            int number = arr[j];
+            System.out.print("("+numbers+","+number+")");
+        }
+    }
+    }
+}
+//basic logic i have applied is like simple two loops one starting from intial value and other same as the first loop if we make second loop start from 0 the pairs will be dubplicated like (a,b) and other (b,a)
+//which i dont want so i started seond loop from same index as first loop abd stored there values in a variable later displayed it. it still can be improved  later.....
